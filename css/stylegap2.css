@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+}
+table, th, td {
+      border: 0.4vh solid black;
+      border-collapse: collapse;
+      margin-top: 115px;
+      margin-left: 180px;
+      padding: 200px;
+      width: 350px;
+    }
+    th, td {
+      padding: 2.5%;
+      width: 0.5%;
+      margin-left: 2%;
+    }
+.t01 {
+  width: 30%;    
+  background-color: black;
+}
+.containerinfo{
+    height: 13%;
+    width: 41%;
+    background: rgba(187, 255, 225, 0.5);
+    position: absolute;
+    margin-top: 2.5%;
+    top: 11%;
+   text-decoration:none;color:blue;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    padding: 0 5%;
+}
